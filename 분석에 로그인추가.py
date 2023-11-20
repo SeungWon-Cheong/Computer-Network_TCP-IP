@@ -125,7 +125,7 @@ try:
         db_connection = pymysql.connect(
             host="localhost",  # 호스트 주소
             user="root",   # MySQL 사용자 이름
-            password="wjswldms",  # MySQL 비밀번호
+            password="0000",  # MySQL 비밀번호
             database="cuktaxi"  # 데이터베이스 이름
         )
 
