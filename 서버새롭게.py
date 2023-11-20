@@ -4,7 +4,6 @@ from queue import Queue #큐 모듈을 쓰는 이유: 먼저 들어온 채팅 �
 import pymysql
 from datetime import datetime
 
-
 #### 사용자 정보 확인 및 추가
 def check_user(phone_number):
     cursor.execute('SELECT * FROM users WHERE phone_number = %s', (phone_number))
